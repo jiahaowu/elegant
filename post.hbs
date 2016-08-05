@@ -1,0 +1,17 @@
+{{!< default}}
+<div class="post">
+    <a class="post__back" href="/">&lt;-- home</a>
+{{#post}}
+    <h1 class="post__title">{{title}}</h1>
+    <p class="post__date">{{date updated_at format="MMM DD, YYYY"}}</p>
+
+    <p class="post__meta">TAGS: 
+    {{#foreach tags}}
+        <a href="{{url}}">{{name}}</a>
+    {{/foreach}}
+    </p>
+    <div class="post__content"?>
+        {{ content  }}
+    </div>    
+{{/post}}
+</div>
