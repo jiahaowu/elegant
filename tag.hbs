@@ -1,0 +1,23 @@
+{{!< default}}
+<div class="header">
+    <h1>{{@blog.title}}</h1>
+    {{navigation}}
+</div>
+
+<div class="blog">
+    {{#tag}}
+        <h1>Tag: {{name}}</h1>
+        {{#if description}}
+            <h2>{{description}}</h2>
+        {{/if}}
+    {{/tag}}
+    <ul>
+        {{#foreach posts}}
+            <li>
+                <span class="date">{{date updated_at timeago="true"}}</span> - <a href="{{url}}">{{title}}</a>
+            </li>
+        {{/foreach}}
+    </ul>
+    <br>
+    {{pagination}}
+</div>

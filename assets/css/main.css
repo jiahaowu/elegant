@@ -147,20 +147,21 @@ ul {
       font-weight: 700; }
     .post__content em {
       font-style: italic; }
-    .post__content ul {
+    .post__content ul, .post__content ol, .post__content dl {
       font-size: 1em;
       list-style: circle;
       margin-left: 30px;
       margin-top: -5px;
       margin-bottom: 5px; }
-      .post__content ul li {
-        padding: 5px;
-        padding-left: 5px; }
+      .post__content ul li, .post__content ol li, .post__content dl li {
+        padding: 2px;
+        padding-left: 5px;
+        line-height: 1.2em; }
         @media screen and (max-width: 600px) {
-          .post__content ul li {
+          .post__content ul li, .post__content ol li, .post__content dl li {
             padding: 10px 0 10px 0; } }
       @media screen and (max-width: 600px) {
-        .post__content ul {
+        .post__content ul, .post__content ol, .post__content dl {
           margin-left: 10px; } }
     .post__content img {
       margin-top: 10px;
@@ -170,9 +171,9 @@ ul {
           width: 100%;
           margin: auto; } }
     .post__content code {
-      padding: 3px;
+      padding: 1px;
       font-size: 0.9em;
-      border-radius: 3px;
+      border-radius: 2px;
       background: #EEEEEE; }
     .post__content .highlight {
       margin: 10px;
