@@ -169,7 +169,7 @@ ul {
         .post__content img {
           width: 100%;
           margin: auto; } }
-    .post__content code, .post__content pre code {
+    .post__content code {
       padding: 3px;
       font-size: 0.9em;
       border-radius: 3px;
@@ -184,6 +184,16 @@ ul {
       .post__content .highlight code {
         color: #00FF00;
         background: none; }
+    .post__content pre {
+      word-wrap: normal;
+      -moz-hyphens: none;
+      -ms-hyphens: none;
+      -webkit-hyphens: none;
+      hyphens: none;
+      font-size: 0.9em;
+      line-height: 1.3em; }
+    .post__content pre code, .post__content pre tt {
+      white-space: pre; }
     .post__content .codebreak {
       margin: 15px;
       border: 0;
