@@ -3,7 +3,7 @@
     <a class="post__back" href="/">&lt;-- home</a>
 {{#post}}
     <h1 class="post__title">{{title}}</h1>
-    <p class="post__date">{{date updated_at format="MMM DD, YYYY"}}</p>
+    <p class="post__date">published at: {{date published_at format="MMM DD, YYYY"}}, updated at: {{date updated_at format="MMM DD, YYYY"}}</p>
 
     <p class="post__meta">TAGS: 
     {{#foreach tags}}

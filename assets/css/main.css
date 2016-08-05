@@ -96,12 +96,6 @@ ul {
       padding: 0;
       padding-left: 5px; }
 
-.portfolio {
-  padding-bottom: 30px; }
-  .portfolio h1 {
-    font-size: 1.4em;
-    margin-bottom: 5px; }
-
 .blog {
   padding-bottom: 30px; }
   .blog h1 {
@@ -112,15 +106,6 @@ ul {
   margin: auto;
   width: 50%;
   padding: 10px; }
-
-.music {
-  padding-bottom: 30px; }
-  .music h1 {
-    font-size: 1.4em;
-    margin-bottom: 5px; }
-  .music a {
-    padding: 5px;
-    padding-left: 10px; }
 
 .post {
   padding-bottom: 30px; }
