@@ -108,6 +108,11 @@ ul {
     font-size: 1.4em;
     margin-bottom: 5px; }
 
+.pagination {
+  margin: auto;
+  width: 50%;
+  padding: 10px; }
+
 .music {
   padding-bottom: 30px; }
   .music h1 {
