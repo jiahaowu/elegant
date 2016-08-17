@@ -1,11 +1,11 @@
 # Elegant Theme for Ghost
 This is a theme for ghost blog system, inspired by the basic theme of jekyll.
 
-## Support
+## [Support](https://fleep.io/chat/zee7pWzzR4-1AYuKh0CPSg)
 Join the Fleep discussion from this [link](https://fleep.io/chat/zee7pWzzR4-1AYuKh0CPSg)
 
 ## Live Demonstration
-You find it in my [blog](https://www.jiahaowu.com)
+Elegant theme is used in My [blog](https://www.jiahaowu.com).
 
 ## Configuration
 
