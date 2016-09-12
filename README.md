@@ -1,11 +1,16 @@
 # Elegant Theme for Ghost
 This is a theme for ghost blog system, inspired by the basic theme of jekyll.
 
-## [Discussion](https://fleep.io/chat/zee7pWzzR4-1AYuKh0CPSg)
-Join the Fleep discussion from this [link](https://fleep.io/chat/zee7pWzzR4-1AYuKh0CPSg)
+## Screenshots
+Home page
+![Front Page](img/2.png)
 
-## Live Demonstration
-Elegant theme is used in My [blog](https://www.jiahaowu.com).
+Post Page
+![Post](img/1.png)
+
+## Features
+- Disqus integration
+- MathJax support
 
 ## Configuration
 
