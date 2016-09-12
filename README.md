@@ -11,6 +11,7 @@ Post Page
 ## Features
 - Disqus integration
 - MathJax support
+- Code highlight
 
 ## Configuration
 
