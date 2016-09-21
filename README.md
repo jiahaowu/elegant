@@ -1,3 +1,5 @@
+[![ghit.me](https://ghit.me/badge.svg?repo=jiahaowu/elegant)](https://ghit.me/repo/jiahaowu/elegant)
+
 # Elegant Theme for Ghost
 This is a theme for ghost blog system, inspired by the basic theme of jekyll.
 
